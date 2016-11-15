@@ -1,0 +1,17 @@
+<ion-view view-title="Conversation" ng-show="ready">>
+	<ion-content class="body has-header" padding>
+		<div ng-repeat="message in messages" class="message-wrap">
+			<div class="message" ng-class="message.token === token ? 'left' : 'right'">
+				<div>{{ message.pseudo }}</div>
+				<div>{{ message.message }}</div>
+				<time>{{ message.time | date:'EEEE, MMMM d, y HH:mm:ss' }}</time>
+			</div>
+		</div>
+	</ion-content>
+	<div class="text-area">
+		<div class="item item-input">
+			<textarea placeholder="Message" ng-model="message.data"/></textarea>
+			<button class="button ion-android-send" ng-click="sendMessage()"></button>
+		</div>
+	</div>
+</ion-view>

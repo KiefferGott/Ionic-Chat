@@ -1,0 +1,23 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "mongodb": "^2.2.11",
+    "socket.io": "^1.4.8"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "engines": {
+    "node": "5.7.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.heroku.com/ionic-chat-api.git"
+  },
+  "author": "Kieffer",
+  "license": "ISC"
+}

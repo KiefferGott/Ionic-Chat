@@ -1,0 +1,60 @@
+.loader svg{
+	position: absolute;
+	width: 292px;
+	height: 78px;
+	top: 50%;
+	left: 50%;
+	margin-left: -146px;
+}
+
+.loader-title {
+	text-align: center;
+}
+
+.text-area {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  width: 100%;
+  height:  auto;
+}
+
+textarea {
+  display: inline-block;
+}
+
+time {
+	font-size: 10px;
+}
+
+.message {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 10px 18px;
+  position: relative;
+  margin: 10px;
+  max-width: 80%;
+}
+
+.message.left {
+  background-color: #e6e5eb;
+  float: left;
+  margin-left: 20px;
+}
+
+.message.right {
+  background-color: #158ffe;
+  color: #fff;
+  float: right;
+  margin-right: 20px;
+}
+
+.message-wrap {
+	display: block;
+	width: 100%;
+	clear: both;
+}
+
+.body {
+	margin-bottom: 60px;
+}
